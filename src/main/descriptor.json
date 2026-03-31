@@ -23,6 +23,16 @@
       "promises" : {
         "servicesType" : ""
       },
+      "dependsOn" : ""
+    }, {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:marcoScordamagliaStock:1:inputports:productDataProduct",
+      "name" : "productDataProduct",
+      "version" : "1.0.0",
+      "displayName" : "Product Data Product",
+      "description" : "",
+      "promises" : {
+        "servicesType" : ""
+      },
       "dependsOn" : null
     } ],
     "outputPorts" : [ ]
