@@ -1,0 +1,19 @@
+{
+  "dataProductDescriptor" : "1.0.0",
+  "info" : {
+    "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:marcoScordamagliaStock:1",
+    "domain" : "marcoscordamaglia-retail",
+    "name" : "marcoScordamagliaStock",
+    "displayName" : "Marco Scordamaglia Stock",
+    "description" : null,
+    "version" : "1.0.0",
+    "owner" : {
+      "id" : "m.scordamaglia@crif.com",
+      "name" : "Marco Scordamaglia"
+    }
+  },
+  "interfaceComponents" : {
+    "inputPorts" : [ ],
+    "outputPorts" : [ ]
+  }
+}
