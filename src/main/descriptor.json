@@ -43,8 +43,68 @@
       "promises" : {
         "servicesType" : ""
       },
-      "dependsOn" : null
+      "dependsOn" : ""
     } ],
-    "outputPorts" : [ ]
+    "outputPorts" : [ {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:marcoScordamagliaStock:1:outputports:dwh",
+      "name" : "dwh",
+      "version" : "1.0.0",
+      "displayName" : "dwh",
+      "description" : "",
+      "promises" : {
+        "platform" : "PostgreSQL:marcoscordamaglia-dwh",
+        "api" : {
+          "fullyQualifiedName" : "",
+          "name" : "marcoScordamagliaStockdwhApi",
+          "version" : "1.0.0",
+          "specification" : "datastoreapi",
+          "specificationVersion" : "1.0.0",
+          "definition" : {
+            "schema" : {
+              "databaseSchemaName" : "",
+              "tables" : [ {
+                "version" : "1.0.0",
+                "specification" : "json-schema",
+                "specificationVersion" : "1",
+                "definition" : {
+                  "name" : "ft_stock",
+                  "displayName" : "ft_stock",
+                  "description" : "",
+                  "physicalType" : "BASE_TABLE",
+                  "properties" : {
+                    "site_code" : {
+                      "name" : "site_code",
+                      "displayName" : "site_code",
+                      "physicalType" : "varchar",
+                      "description" : "",
+                      "ordinalPosition" : 1
+                    },
+                    "sku_id" : {
+                      "name" : "sku_id",
+                      "displayName" : "sku_id",
+                      "physicalType" : "integer",
+                      "description" : "",
+                      "ordinalPosition" : 2
+                    },
+                    "stock_qty" : {
+                      "name" : "stock_qty",
+                      "displayName" : "stock_qty",
+                      "physicalType" : "",
+                      "description" : "",
+                      "ordinalPosition" : 3
+                    }
+                  },
+                  "s-context" : {
+                    "site_code" : "[Site].Site Code",
+                    "sku_id" : "[Product SKU].ProductSkuIdentifier",
+                    "stock_qty" : "[Stock].Stock Quantity"
+                  }
+                }
+              } ]
+            }
+          }
+        }
+      }
+    } ]
   }
 }
