@@ -33,6 +33,16 @@
       "promises" : {
         "servicesType" : ""
       },
+      "dependsOn" : ""
+    }, {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:marcoScordamagliaStock:1:inputports:movementDataProduct",
+      "name" : "movementDataProduct",
+      "version" : "1.0.0",
+      "displayName" : "MovementData Product",
+      "description" : "",
+      "promises" : {
+        "servicesType" : ""
+      },
       "dependsOn" : null
     } ],
     "outputPorts" : [ ]
