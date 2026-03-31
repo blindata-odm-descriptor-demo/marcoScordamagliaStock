@@ -5,15 +5,26 @@
     "domain" : "marcoscordamaglia-retail",
     "name" : "marcoScordamagliaStock",
     "displayName" : "Marco Scordamaglia Stock",
-    "description" : null,
+    "description" : "Data Product that manages data about inventory, both the master data from the golden source and the real-time state computed for ecommerce channel.",
     "version" : "1.0.0",
     "owner" : {
       "id" : "m.scordamaglia@crif.com",
       "name" : "Marco Scordamaglia"
-    }
+    },
+    "contactPoints" : [ ]
   },
   "interfaceComponents" : {
-    "inputPorts" : [ ],
+    "inputPorts" : [ {
+      "fullyQualifiedName" : "urn:dpds:crifPlayground:dataproducts:marcoScordamagliaStock:1:inputports:siteDataProduct",
+      "name" : "siteDataProduct",
+      "version" : "1.0.0",
+      "displayName" : "Site Data Product",
+      "description" : "",
+      "promises" : {
+        "servicesType" : ""
+      },
+      "dependsOn" : null
+    } ],
     "outputPorts" : [ ]
   }
 }
