@@ -99,7 +99,7 @@
                     "s-type" : "[Stock]",
                     "sku_id" : "[Stock].refersTo[ProductSku].productSkuIdentifier",
                     "stock_qty" : "[Stock].stockQuantity",
-                    "site_code" : "[Site].Site Code"
+                    "site_code" : "[Stock].referTo[Site].siteCode"
                   }
                 }
               } ]
