@@ -89,15 +89,17 @@
                     "stock_qty" : {
                       "name" : "stock_qty",
                       "displayName" : "stock_qty",
-                      "physicalType" : "",
+                      "physicalType" : "decimal",
                       "description" : "",
                       "ordinalPosition" : 3
                     }
                   },
                   "s-context" : {
-                    "site_code" : "[Site].Site Code",
-                    "sku_id" : "[Product SKU].ProductSkuIdentifier",
-                    "stock_qty" : "[Stock].Stock Quantity"
+                    "s-base" : "https://demo.blindata.io/logical/namespaces/name/marcoscordamagliaRetail#",
+                    "s-type" : "[Stock]",
+                    "sku_id" : "[Stock].refersTo[ProductSku].productSkuIdentifier",
+                    "stock_qty" : "[Stock].stockQuantity",
+                    "site_code" : "[Site].Site Code"
                   }
                 }
               } ]
